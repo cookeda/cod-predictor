@@ -95,13 +95,14 @@ class CDL_team_results:
         #format = 'LAN' if event % 2 == 0 else 'ONLINE' #Format Text
             map_winner = team1 if map_score1 > map_score2 else team2
                 
-
+            margin = abs(map_score1 - map_score2)
             maps_details.append({
                 'map_name': map_name,
                 'mode_name': mode_name,
                 'map_winner': map_winner,
                 'team1_score': map_score1,
-                'team2_score': map_score2
+                'team2_score': map_score2,
+                'margin_of_victor': margin
             })
 
 
