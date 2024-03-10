@@ -1,0 +1,845 @@
+[
+    {
+        "tournament": "MIAMI HERETICS MAJOR II ONLINE",
+        "matches": [
+            {
+                "team1": "MINNESOTA R\u00d8KKR",
+                "team1_score": "2",
+                "team2": "LOS ANGELES THIEVES",
+                "team2_score": "3",
+                "total_rounds": 5,
+                "date": "March 03 2024 - 06:00 PM",
+                "maps": [
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 205,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "MAP - TBA",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 2,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "CONTROL",
+                        "team1_score": 3,
+                        "team2_score": 1
+                    },
+                    {
+                        "map_name": "SKIDROW",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 231
+                    },
+                    {
+                        "map_name": "TERMINAL",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 3,
+                        "team2_score": 6
+                    }
+                ]
+            },
+            {
+                "team1": "ATLANTA FAZE",
+                "team1_score": "3",
+                "team2": "TORONTO ULTRA",
+                "team2_score": "0",
+                "total_rounds": 3,
+                "date": "March 03 2024 - 04:30 PM",
+                "maps": [
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 172
+                    },
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 5
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "CONTROL",
+                        "team1_score": 3,
+                        "team2_score": 1
+                    }
+                ]
+            },
+            {
+                "team1": "MIAMI HERETICS",
+                "team1_score": "0",
+                "team2": "NEW YORK SUBLINERS",
+                "team2_score": "3",
+                "total_rounds": 3,
+                "date": "March 03 2024 - 03:00 PM",
+                "maps": [
+                    {
+                        "map_name": "SUB BASE",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 155,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 4,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "CONTROL",
+                        "team1_score": 0,
+                        "team2_score": 3
+                    }
+                ]
+            },
+            {
+                "team1": "LOS ANGELES GUERRILLAS",
+                "team1_score": "0",
+                "team2": "SEATTLE SURGE",
+                "team2_score": "3",
+                "total_rounds": 3,
+                "date": "March 02 2024 - 06:00 PM",
+                "maps": [
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 244,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 4,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "CONTROL",
+                        "team1_score": 1,
+                        "team2_score": 3
+                    }
+                ]
+            },
+            {
+                "team1": "OPTIC TEXAS",
+                "team1_score": "3",
+                "team2": "CAROLINA ROYAL RAVENS",
+                "team2_score": "1",
+                "total_rounds": 4,
+                "date": "March 02 2024 - 04:30 PM",
+                "maps": [
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 191
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 1,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "CONTROL",
+                        "team1_score": 3,
+                        "team2_score": 0
+                    },
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 206
+                    }
+                ]
+            },
+            {
+                "team1": "VEGAS LEGION",
+                "team1_score": "3",
+                "team2": "BOSTON BREACH",
+                "team2_score": "0",
+                "total_rounds": 3,
+                "date": "March 02 2024 - 03:00 PM",
+                "maps": [
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 244
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "CONTROL",
+                        "team1_score": 3,
+                        "team2_score": 2
+                    }
+                ]
+            },
+            {
+                "team1": "SEATTLE SURGE",
+                "team1_score": "0",
+                "team2": "TORONTO ULTRA",
+                "team2_score": "3",
+                "total_rounds": 3,
+                "date": "March 01 2024 - 04:30 PM",
+                "maps": [
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 145,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 3,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "CONTROL",
+                        "team1_score": 2,
+                        "team2_score": 3
+                    }
+                ]
+            },
+            {
+                "team1": "MINNESOTA R\u00d8KKR",
+                "team1_score": "0",
+                "team2": "ATLANTA FAZE",
+                "team2_score": "3",
+                "total_rounds": 3,
+                "date": "March 01 2024 - 03:00 PM",
+                "maps": [
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 193,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 4,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "CONTROL",
+                        "team1_score": 2,
+                        "team2_score": 3
+                    }
+                ]
+            },
+            {
+                "team1": "ATLANTA FAZE",
+                "team1_score": "2",
+                "team2": "NEW YORK SUBLINERS",
+                "team2_score": "3",
+                "total_rounds": 5,
+                "date": "February 25 2024 - 06:00 PM",
+                "maps": [
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 135
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 0,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "CONTROL",
+                        "team1_score": 3,
+                        "team2_score": 1
+                    },
+                    {
+                        "map_name": "SKIDROW",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 210,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 4,
+                        "team2_score": 6
+                    }
+                ]
+            },
+            {
+                "team1": "MINNESOTA R\u00d8KKR",
+                "team1_score": "2",
+                "team2": "BOSTON BREACH",
+                "team2_score": "3",
+                "total_rounds": 5,
+                "date": "February 25 2024 - 04:30 PM",
+                "maps": [
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 189,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 2
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "CONTROL",
+                        "team1_score": 3,
+                        "team2_score": 2
+                    },
+                    {
+                        "map_name": "SUB BASE",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 242,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 1,
+                        "team2_score": 6
+                    }
+                ]
+            },
+            {
+                "team1": "SEATTLE SURGE",
+                "team1_score": "1",
+                "team2": "CAROLINA ROYAL RAVENS",
+                "team2_score": "3",
+                "total_rounds": 4,
+                "date": "February 25 2024 - 03:00 PM",
+                "maps": [
+                    {
+                        "map_name": "SKIDROW",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 150,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "TERMINAL",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "CONTROL",
+                        "team1_score": 0,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 145,
+                        "team2_score": 250
+                    }
+                ]
+            },
+            {
+                "team1": "MIAMI HERETICS",
+                "team1_score": "2",
+                "team2": "LOS ANGELES THIEVES",
+                "team2_score": "3",
+                "total_rounds": 5,
+                "date": "February 24 2024 - 06:00 PM",
+                "maps": [
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 215,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 2,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "CONTROL",
+                        "team1_score": 3,
+                        "team2_score": 2
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 223
+                    },
+                    {
+                        "map_name": "TERMINAL",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 5,
+                        "team2_score": 6
+                    }
+                ]
+            },
+            {
+                "team1": "LOS ANGELES GUERRILLAS",
+                "team1_score": "1",
+                "team2": "OPTIC TEXAS",
+                "team2_score": "3",
+                "total_rounds": 4,
+                "date": "February 24 2024 - 04:30 PM",
+                "maps": [
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 122
+                    },
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 2,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "CONTROL",
+                        "team1_score": 2,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "SKIDROW",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 178,
+                        "team2_score": 250
+                    }
+                ]
+            },
+            {
+                "team1": "VEGAS LEGION",
+                "team1_score": "1",
+                "team2": "TORONTO ULTRA",
+                "team2_score": "3",
+                "total_rounds": 4,
+                "date": "February 24 2024 - 03:00 PM",
+                "maps": [
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 232,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 0
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "CONTROL",
+                        "team1_score": 1,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 247,
+                        "team2_score": 250
+                    }
+                ]
+            },
+            {
+                "team1": "MIAMI HERETICS",
+                "team1_score": "2",
+                "team2": "VEGAS LEGION",
+                "team2_score": "3",
+                "total_rounds": 5,
+                "date": "February 23 2024 - 06:00 PM",
+                "maps": [
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 158
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 5
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "CONTROL",
+                        "team1_score": 1,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 135,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 3,
+                        "team2_score": 6
+                    }
+                ]
+            },
+            {
+                "team1": "MINNESOTA R\u00d8KKR",
+                "team1_score": "2",
+                "team2": "OPTIC TEXAS",
+                "team2_score": "3",
+                "total_rounds": 5,
+                "date": "February 23 2024 - 04:30 PM",
+                "maps": [
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 143
+                    },
+                    {
+                        "map_name": "TERMINAL",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 5
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "CONTROL",
+                        "team1_score": 2,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "SUB BASE",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 245,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 3,
+                        "team2_score": 6
+                    }
+                ]
+            },
+            {
+                "team1": "NEW YORK SUBLINERS",
+                "team1_score": "3",
+                "team2": "BOSTON BREACH",
+                "team2_score": "0",
+                "total_rounds": 3,
+                "date": "February 23 2024 - 03:00 PM",
+                "maps": [
+                    {
+                        "map_name": "SKIDROW",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 177
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "CONTROL",
+                        "team1_score": 3,
+                        "team2_score": 0
+                    }
+                ]
+            },
+            {
+                "team1": "LOS ANGELES THIEVES",
+                "team1_score": "0",
+                "team2": "OPTIC TEXAS",
+                "team2_score": "3",
+                "total_rounds": 3,
+                "date": "February 18 2024 - 06:00 PM",
+                "maps": [
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 122,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 3,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "CONTROL",
+                        "team1_score": 2,
+                        "team2_score": 3
+                    }
+                ]
+            },
+            {
+                "team1": "TORONTO ULTRA",
+                "team1_score": "3",
+                "team2": "MINNESOTA R\u00d8KKR",
+                "team2_score": "2",
+                "total_rounds": 5,
+                "date": "February 18 2024 - 04:30 PM",
+                "maps": [
+                    {
+                        "map_name": "SKIDROW",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 156
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 5
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "CONTROL",
+                        "team1_score": 1,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 206,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 0
+                    }
+                ]
+            },
+            {
+                "team1": "LOS ANGELES GUERRILLAS",
+                "team1_score": "1",
+                "team2": "VEGAS LEGION",
+                "team2_score": "3",
+                "total_rounds": 4,
+                "date": "February 18 2024 - 03:00 PM",
+                "maps": [
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 192,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 2
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "CONTROL",
+                        "team1_score": 2,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 236,
+                        "team2_score": 250
+                    }
+                ]
+            },
+            {
+                "team1": "NEW YORK SUBLINERS",
+                "team1_score": "3",
+                "team2": "SEATTLE SURGE",
+                "team2_score": "0",
+                "total_rounds": 3,
+                "date": "February 17 2024 - 06:00 PM",
+                "maps": [
+                    {
+                        "map_name": "SUB BASE",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 189
+                    },
+                    {
+                        "map_name": "TERMINAL",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "CONTROL",
+                        "team1_score": 3,
+                        "team2_score": 0
+                    }
+                ]
+            },
+            {
+                "team1": "ATLANTA FAZE",
+                "team1_score": "3",
+                "team2": "MIAMI HERETICS",
+                "team2_score": "1",
+                "total_rounds": 4,
+                "date": "February 17 2024 - 04:30 PM",
+                "maps": [
+                    {
+                        "map_name": "SUB BASE",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 151,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 5
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "CONTROL",
+                        "team1_score": 3,
+                        "team2_score": 0
+                    },
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 184
+                    }
+                ]
+            },
+            {
+                "team1": "BOSTON BREACH",
+                "team1_score": "3",
+                "team2": "CAROLINA ROYAL RAVENS",
+                "team2_score": "1",
+                "total_rounds": 4,
+                "date": "February 17 2024 - 03:00 PM",
+                "maps": [
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 222
+                    },
+                    {
+                        "map_name": "TERMINAL",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 4,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "CONTROL",
+                        "team1_score": 3,
+                        "team2_score": 2
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 221
+                    }
+                ]
+            },
+            {
+                "team1": "CAROLINA ROYAL RAVENS",
+                "team1_score": "2",
+                "team2": "NEW YORK SUBLINERS",
+                "team2_score": "3",
+                "total_rounds": 5,
+                "date": "February 16 2024 - 04:30 PM",
+                "maps": [
+                    {
+                        "map_name": "SUB BASE",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 250,
+                        "team2_score": 245
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 6,
+                        "team2_score": 1
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "CONTROL",
+                        "team1_score": 2,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 100,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 1,
+                        "team2_score": 6
+                    }
+                ]
+            },
+            {
+                "team1": "MIAMI HERETICS",
+                "team1_score": "0",
+                "team2": "TORONTO ULTRA",
+                "team2_score": "3",
+                "total_rounds": 3,
+                "date": "February 16 2024 - 03:00 PM",
+                "maps": [
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "HARDPOINT",
+                        "team1_score": 184,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "SEARCH & DESTROY",
+                        "team1_score": 4,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "CONTROL",
+                        "team1_score": 2,
+                        "team2_score": 3
+                    }
+                ]
+            }
+        ]
+    }
+]
