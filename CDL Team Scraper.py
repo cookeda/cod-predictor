@@ -11,6 +11,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
 import json
 import time
@@ -28,6 +29,7 @@ class CDL_team_results:
         ad_anchor = element.find_elements(By.CSS_SELECTOR, 'a[href="https://pickem.callofdutyleague.com"]')
         return len(ad_anchor) > 0
 
+
     #Scrapes both team names, team scores, date played, and adds scores to determine total rounds played.
     #Find (map/mode, both team score, winner) per game (multiple games per match)
     #team{x}_tot: how many games that team won
@@ -37,27 +39,58 @@ class CDL_team_results:
         team1_tot = int(self.driver.find_element(By.CSS_SELECTOR, '.matchup-headerstyles__LeftScore-sc-11r2gmu-9').text)
         team2 = self.driver.find_element(By.CSS_SELECTOR, 'span.matchup-headerstyles__TeamLongName-sc-11r2gmu-15:nth-child(2)').text
         team2_tot = int(self.driver.find_element(By.CSS_SELECTOR, '.matchup-headerstyles__RightScore-sc-11r2gmu-10').text)
-        date = self.driver.find_element(By.CSS_SELECTOR, '.rendercdl-match-detailstyles__VideoStreamDate-sc-1i9oyql-7').text
+        wait = WebDriverWait(self.driver, 5)  # Increased wait time
+        try:
+            date_element = wait.until(EC.presence_of_element_located(
+                (By.CSS_SELECTOR, '.rendercdl-match-detailstyles__VideoStreamDate-sc-1i9oyql-7')))
+            date = date_element.text
+        except TimeoutException:
+            try:
+                date = self.driver.execute_script("return document.querySelector('.rendercdl-match-detailstyles__VideoStreamDate-sc-1i9oyql-7').textContent;")
+            except Exception as e:
+                print(f"Error finding date: {e}")
+                date = "n/a"
         tot_rnd = int(team2_tot) + int(team1_tot)
         maps_details = []
         for map_index in range(1, tot_rnd + 1):
-            map_xpath_base = f'/html/body/div[2]/div/div/div[3]/div[3]/section/div[2]/div[{map_index}]'
-            map_name = self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[3]/div[1]/span[2]').text
-            mode_name = self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[3]/div[1]/span[1]').text
             try:
-                map_score1 = int(self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[2]/div/span').text)
-            except: 
+                map_xpath_base = f'/html/body/div[2]/div/div/div[3]/div[3]/section/div[2]/div[{map_index}]'
+                map_name = self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[3]/div[1]/span[2]').text
+                mode_name = self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[3]/div[1]/span[1]').text
                 try:
-                    map_score1 = int(self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[2]/div/span[2]').text)
-                except ValueError:
-                    map_score1 = 0
-            try:
-                map_score2 = int(self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[4]/div/span').text)
-            except: 
+                    map_score1 = int(self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[2]/div/span').text)
+                except: 
+                    try:
+                        map_score1 = int(self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[2]/div/span[2]').text)
+                    except ValueError:
+                        map_score1 = 0
                 try:
-                    map_score2 = int(self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[4]/div/span[2]').text)
-                except ValueError:
-                    map_score2 = 0
+                    map_score2 = int(self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[4]/div/span').text)
+                except: 
+                    try:
+                        map_score2 = int(self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[4]/div/span[2]').text)
+                    except ValueError:
+                        map_score2 = 0
+            except:
+                map_xpath_base = f'/html/body/div[2]/div/div/div[3]/div[2]/section/div[2]/div[{map_index}]'
+
+                map_name = self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[3]/div[1]/span[2]').text
+                mode_name = self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[3]/div[1]/span[1]').text
+                try:
+                    map_score1 = int(self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[2]/div/span').text)
+                except: 
+                    try:
+                        map_score1 = int(self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[2]/div/span[2]').text)
+                    except ValueError:
+                        map_score1 = 0
+                try:
+                    map_score2 = int(self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[4]/div/span').text)
+                except: 
+                    try:
+                        map_score2 = int(self.driver.find_element(By.XPATH, f'{map_xpath_base}/div/div[2]/div[4]/div/span[2]').text)
+                    except ValueError:
+                        map_score2 = 0
+
 
         #format = 'LAN' if event % 2 == 0 else 'ONLINE' #Format Text
             map_winner = team1 if map_score1 > map_score2 else team2
@@ -130,7 +163,10 @@ class CDL_team_results:
         elements = WebDriverWait(self.driver, 10).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, f'div.css-ufg8u0:nth-child({event}) > div')))
         length_of_section_class = len(elements)
         tournament_data = {
-            'tournament': tournament,
+            'tournament': {
+                'major': major,
+                'format': format
+            },
             'matches': []
         }
         print(f'MATCHES PLAYED: {length_of_section_class - 2}')

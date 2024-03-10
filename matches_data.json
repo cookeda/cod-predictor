@@ -1,7 +1,224 @@
 [
     {
-        "tournament": "MIAMI HERETICS MAJOR II ONLINE",
+        "tournament": {
+            "major": "MIAMI HERETICS MAJOR II",
+            "format": "ONLINE"
+        },
         "matches": [
+            {
+                "team1": "ATLANTA FAZE",
+                "team1_score": 3,
+                "team2": "BOSTON BREACH",
+                "team2_score": 0,
+                "total_rounds": 3,
+                "date": "March 09 2024 - 06:00 PM",
+                "maps": [
+                    {
+                        "map_name": "SKIDROW",
+                        "mode_name": "HARDPOINT",
+                        "map_winner": "ATLANTA FAZE",
+                        "team1_score": 250,
+                        "team2_score": 174
+                    },
+                    {
+                        "map_name": "TERMINAL",
+                        "mode_name": "SEARCH & DESTROY",
+                        "map_winner": "ATLANTA FAZE",
+                        "team1_score": 6,
+                        "team2_score": 0
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "CONTROL",
+                        "map_winner": "ATLANTA FAZE",
+                        "team1_score": 3,
+                        "team2_score": 1
+                    }
+                ]
+            },
+            {
+                "team1": "MINNESOTA R\u00d8KKR",
+                "team1_score": 3,
+                "team2": "SEATTLE SURGE",
+                "team2_score": 1,
+                "total_rounds": 4,
+                "date": "March 09 2024 - 04:30 PM",
+                "maps": [
+                    {
+                        "map_name": "SKIDROW",
+                        "mode_name": "HARDPOINT",
+                        "map_winner": "SEATTLE SURGE",
+                        "team1_score": 229,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "SEARCH & DESTROY",
+                        "map_winner": "MINNESOTA R\u00d8KKR",
+                        "team1_score": 6,
+                        "team2_score": 4
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "CONTROL",
+                        "map_winner": "MINNESOTA R\u00d8KKR",
+                        "team1_score": 3,
+                        "team2_score": 0
+                    },
+                    {
+                        "map_name": "SUB BASE",
+                        "mode_name": "HARDPOINT",
+                        "map_winner": "MINNESOTA R\u00d8KKR",
+                        "team1_score": 250,
+                        "team2_score": 171
+                    }
+                ]
+            },
+            {
+                "team1": "LOS ANGELES GUERRILLAS",
+                "team1_score": 0,
+                "team2": "NEW YORK SUBLINERS",
+                "team2_score": 3,
+                "total_rounds": 3,
+                "date": "n/a",
+                "maps": [
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "HARDPOINT",
+                        "map_winner": "NEW YORK SUBLINERS",
+                        "team1_score": 143,
+                        "team2_score": 247
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "SEARCH & DESTROY",
+                        "map_winner": "NEW YORK SUBLINERS",
+                        "team1_score": 1,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "CONTROL",
+                        "map_winner": "NEW YORK SUBLINERS",
+                        "team1_score": 1,
+                        "team2_score": 3
+                    }
+                ]
+            },
+            {
+                "team1": "CAROLINA ROYAL RAVENS",
+                "team1_score": 3,
+                "team2": "LOS ANGELES GUERRILLAS",
+                "team2_score": 1,
+                "total_rounds": 4,
+                "date": "March 08 2024 - 06:00 PM",
+                "maps": [
+                    {
+                        "map_name": "SUB BASE",
+                        "mode_name": "HARDPOINT",
+                        "map_winner": "CAROLINA ROYAL RAVENS",
+                        "team1_score": 250,
+                        "team2_score": 198
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "SEARCH & DESTROY",
+                        "map_winner": "LOS ANGELES GUERRILLAS",
+                        "team1_score": 2,
+                        "team2_score": 6
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "CONTROL",
+                        "map_winner": "CAROLINA ROYAL RAVENS",
+                        "team1_score": 3,
+                        "team2_score": 1
+                    },
+                    {
+                        "map_name": "SKIDROW",
+                        "mode_name": "HARDPOINT",
+                        "map_winner": "CAROLINA ROYAL RAVENS",
+                        "team1_score": 250,
+                        "team2_score": 187
+                    }
+                ]
+            },
+            {
+                "team1": "ATLANTA FAZE",
+                "team1_score": 3,
+                "team2": "LOS ANGELES THIEVES",
+                "team2_score": 0,
+                "total_rounds": 3,
+                "date": "March 08 2024 - 04:30 PM",
+                "maps": [
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "HARDPOINT",
+                        "map_winner": "ATLANTA FAZE",
+                        "team1_score": 250,
+                        "team2_score": 174
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "SEARCH & DESTROY",
+                        "map_winner": "ATLANTA FAZE",
+                        "team1_score": 6,
+                        "team2_score": 0
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "CONTROL",
+                        "map_winner": "ATLANTA FAZE",
+                        "team1_score": 3,
+                        "team2_score": 0
+                    }
+                ]
+            },
+            {
+                "team1": "BOSTON BREACH",
+                "team1_score": 2,
+                "team2": "OPTIC TEXAS",
+                "team2_score": 3,
+                "total_rounds": 5,
+                "date": "March 08 2024 - 03:00 PM",
+                "maps": [
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "HARDPOINT",
+                        "map_winner": "OPTIC TEXAS",
+                        "team1_score": 92,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "TERMINAL",
+                        "mode_name": "SEARCH & DESTROY",
+                        "map_winner": "BOSTON BREACH",
+                        "team1_score": 6,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "CONTROL",
+                        "map_winner": "BOSTON BREACH",
+                        "team1_score": 3,
+                        "team2_score": 2
+                    },
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "HARDPOINT",
+                        "map_winner": "OPTIC TEXAS",
+                        "team1_score": 176,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "KARACHI",
+                        "mode_name": "SEARCH & DESTROY",
+                        "map_winner": "OPTIC TEXAS",
+                        "team1_score": 5,
+                        "team2_score": 6
+                    }
+                ]
+            },
             {
                 "team1": "MINNESOTA R\u00d8KKR",
                 "team1_score": 2,
@@ -941,7 +1158,10 @@
         ]
     },
     {
-        "tournament": "BOSTON BREACH MAJOR I LAN",
+        "tournament": {
+            "major": "BOSTON BREACH MAJOR I",
+            "format": "LAN"
+        },
         "matches": [
             {
                 "team1": "ATLANTA FAZE",
@@ -1630,7 +1850,10 @@
         ]
     },
     {
-        "tournament": "BOSTON BREACH MAJOR I ONLINE",
+        "tournament": {
+            "major": "BOSTON BREACH MAJOR I",
+            "format": "ONLINE"
+        },
         "matches": [
             {
                 "team1": "ATLANTA FAZE",
