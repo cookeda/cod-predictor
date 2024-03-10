@@ -6,6 +6,44 @@
         },
         "matches": [
             {
+                "team1": "LOS ANGELES THIEVES",
+                "team1_score": 3,
+                "team2": "VEGAS LEGION",
+                "team2_score": 1,
+                "total_rounds": 4,
+                "date": "March 10 2024 - 03:00 PM",
+                "maps": [
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "HARDPOINT",
+                        "map_winner": "VEGAS LEGION",
+                        "team1_score": 204,
+                        "team2_score": 250
+                    },
+                    {
+                        "map_name": "INVASION",
+                        "mode_name": "SEARCH & DESTROY",
+                        "map_winner": "LOS ANGELES THIEVES",
+                        "team1_score": 6,
+                        "team2_score": 3
+                    },
+                    {
+                        "map_name": "HIGHRISE",
+                        "mode_name": "CONTROL",
+                        "map_winner": "LOS ANGELES THIEVES",
+                        "team1_score": 3,
+                        "team2_score": 2
+                    },
+                    {
+                        "map_name": "RIO",
+                        "mode_name": "HARDPOINT",
+                        "map_winner": "LOS ANGELES THIEVES",
+                        "team1_score": 250,
+                        "team2_score": 173
+                    }
+                ]
+            },
+            {
                 "team1": "ATLANTA FAZE",
                 "team1_score": 3,
                 "team2": "BOSTON BREACH",
