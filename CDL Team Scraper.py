@@ -13,6 +13,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.common.by import By
+from datetime import datetime
 import json
 import time
 
@@ -44,12 +45,13 @@ class CDL_team_results:
             date_element = wait.until(EC.presence_of_element_located(
                 (By.CSS_SELECTOR, '.rendercdl-match-detailstyles__VideoStreamDate-sc-1i9oyql-7')))
             date = date_element.text
+            date_text = datetime.strptime(date, "%B %d %Y - %I:%M %p").isoformat()
         except TimeoutException:
             try:
                 date = self.driver.execute_script("return document.querySelector('.rendercdl-match-detailstyles__VideoStreamDate-sc-1i9oyql-7').textContent;")
             except Exception as e:
                 print(f"Error finding date: {e}")
-                date = "n/a"
+                date_text = "n/a"
         tot_rnd = int(team2_tot) + int(team1_tot)
         maps_details = []
         for map_index in range(1, tot_rnd + 1):
@@ -100,19 +102,19 @@ class CDL_team_results:
                 'map_name': map_name,
                 'mode_name': mode_name,
                 'map_winner': map_winner,
-                'team1_score': map_score1,
-                'team2_score': map_score2,
+                'team1_map_score': map_score1,
+                'team2_map_score': map_score2,
                 'margin_of_victor': margin
             })
 
 
         match_data = {
             'team1': team1,
-            'team1_score': team1_tot,
+            'team1_final_score': team1_tot,
             'team2': team2,
-            'team2_score': team2_tot,
+            'team2_final_score': team2_tot,
             'total_rounds': tot_rnd,
-            'date': date,
+            'date': date_text,
             'maps': maps_details
         }
         return match_data
